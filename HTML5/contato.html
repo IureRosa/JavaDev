@@ -12,8 +12,49 @@
         </nav>
         <section>
             <h2>Formulário de Contato</h2>
-            <form method="get" action="https://google.com/search">
-                <input type="text" name="q" />
+            <form>
+                <input type="text" name="q" placeholder="None"/> <br />
+                <!-- <input type="email" name="q" placeholder="None"/>
+            -->
+                <!-- <input type="search" name="q" placeholder="None"/>
+            -->
+                <!-- <input type="tel" name="q" placeholder="None"/>
+            -->
+                <!-- <input type="number" name="q" placeholder="None"/>
+            -->
+                <!-- <input type="url" name="q" placeholder="None"/>
+            -->
+                <!-- <input type="range" name="q" min=0 max=100 step=0.1/>
+            -->
+                <input type="checkbox" name="Dia da semana" value=2/> Segunda-Feira <br/>
+                <input type="checkbox" name="Dia da semana" value=4/> Quarta-Feira <br/>
+                <input type="checkbox" name="Dia da semana" value=6/> Sexta-Feira <br/>
+                <input type="radio" name="Turno" value=2/> Manhã <br/>
+                <input type="radio" name="Turno" value=4/> Tarde <br/>
+                <input type="radio" name="Turno" value=6/> Noite <br/>
+                <textarea cols="50" rows="10"></textarea> <br />
+                <input list="cidade" name="cidade"/>
+                <!-- <select name="Cidade">
+                    <option value="Selecione a Cidade"></option>
+                    <option value="Blumenau">Blumenau</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="Florianópolis">Florianópolis</option>
+                </select>
+            -->
+
+                <datalist id="cidade">
+                    <option value="Selecione a Cidade"></option>
+                    <option value="Blumenau">Blumenau</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="Florianópolis">Florianópolis</option>
+                </datalist><br />
+                <button type="button">Outra ação</button>
+                <!--
+                <button type="reset">Limpar</button>
+                -->
+                <!--
+                <button type="submit">Enviar</button>
+                -->
             </form>
         </section>
     </body>
