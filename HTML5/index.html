@@ -3,12 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>Currículo do Iure</title>
+        <link rel="stylesheet" href="..\CSS\style.css" />
     </head>
     <body> 
         <header>
             <picture>
-                <source srcset="images/d532631a-iure-rosa.png" />
-                <img src="images/d532631a-iure-rosa.png" 
+                <source srcset="..\images\d532631a-iure-rosa.png" />
+                <img src="..\images\d532631a-iure-rosa.png" 
                 width="200" height="200" alt="eu lindão"/>
             </picture>
             
@@ -25,7 +26,7 @@
             </nav>
         </header>
         <section>
-            <h2>Dados Pessoais</h2>
+            <h2 class="dados">Dados Pessoais</h2>
             <section>
                 <h3>Documentos</h3>
             </section>
@@ -37,7 +38,7 @@
         </section>
         <main>
             <header>
-                <h2>
+                <h2 class="dados">
                     Sobre mim
                 </h2>
                 <p>
@@ -45,10 +46,10 @@
                 </p>
             </header>
             <section>
-                <h3>
+                <h3 id="formAcad">
                     Formação Acadêmica
                     </section>
-                    <h4>
+                    <h4 style="color: gray; text-decoration: none;">
                         Ensino Médio: Escola Estadual Alberto Azevedo
                     </h4>
                     <p>
@@ -62,7 +63,7 @@
                     </p>
                     <section>
                 </h3>
-                <h3>
+                <h3 id="ExpPro">
                     Experiências Profissionais
                 </h3>
                     <ol>
@@ -77,7 +78,7 @@
                     </ol>
             </section>
             <section>
-                <h3>
+                <h3 id="HabComp">
                     Habilidades Complementares
                 </h3>
                 <ol>
@@ -171,7 +172,7 @@
                         <a href="https://www.github.com/IureRosa">GitHub</a>
                     </li>
                     <li>
-                        Lattes
+                        <a href="https://lattes.cnpq.br/3419329114775280">Lattes</a>
                     </li>
                 </ul>
             </nav>

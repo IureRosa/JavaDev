@@ -1,0 +1,46 @@
+html{
+    background-color: #aaaaaa;
+}
+main{
+    /*background-image: url("../images/panda.jpg");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: 2rem;
+    text-align: start;
+    /*text-decoration: overline;*/
+}
+h1{
+    background-color: #aa0527;
+    font-family: 'evanescent', 'Courier New', Courier, monospace;
+    src: url("../fonts/evanescent.ttf")
+}
+h4{
+    color: rgb(8, 3, 36);
+    text-decoration: underline;
+}
+
+.dados{
+    color: aqua;
+}
+
+#HabComp{
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ExpPro{
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#formAcad{
+    color: rgba(209, 1, 209,1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color: #aa0527;
+    cursor: help;
+}
+a :hover{
+    color:rgb(8, 3, 36)
+}

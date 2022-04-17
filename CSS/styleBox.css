@@ -1,0 +1,17 @@
+.box{
+    box-sizing: border-box;
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    padding: 10px 5px 3px 20px;
+    border: 2px solid #000;
+}
+.vermelho{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
+.azul{
+    background-color: blue;
+}
